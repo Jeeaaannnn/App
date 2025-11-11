@@ -1,0 +1,672 @@
+{
+  "general": {
+    "words": {
+      "warning": "Attenzione",
+      "yes": "Si",
+      "no": "No",
+      "close": "Chiudi",
+      "back": "Indietro",
+      "ok": "Ok",
+      "send": "Invia"
+    },
+    "errors": {
+      "alerts": {
+        "serverError": {
+          "title": "Attenzione",
+          "message": "Si è verificato un errore imprevisto. Controlla la connessione riprova."
+        },
+        "unableToLoadContent": {
+          "title": "Attenzione",
+          "message": "Non è stato possibile caricare il contenuto richiesto. Prova nuovamente o contatta il supporto tecnico."
+        },
+        "noNetwork": {
+          "title": "Attenzione",
+          "message": "Non è stato possibile contattare il server. Prova nuovamente dopo aver controllato la connessione."
+        }
+      },
+      "validations": {
+        "required": "Campo richiesto",
+        "minLength": "Troppi pochi caratteri",
+        "maxLength": "Troppi caratteri",
+        "invalidData": "Campo invalido"
+      },
+      "connectionError": "Si è verificato un errore di connessione imprevisto. Prova nuovamente a breve."
+    }
+  },
+  "components": {
+    "bottomMenu": {
+      "home": "Home",
+      "communications": "Comunicazioni",
+      "help": "Assistenza",
+      "newQuote": "Richiedi preventivo",
+      "cases": "Pratiche",
+      "budget": "Budget",
+      "report": "Report",
+      "addAppointment": "Aggiungi appuntamento"
+    },
+    "drawer": {
+      "contactPersonData": "Riferimenti",
+      "profile": "Profilo",
+      "info": "Informazioni generali",
+      "logout": "Esci",
+      "logoutAlert": {
+        "title": "Sei sicuro?",
+        "message": "Procedendo eseguirai il logout. Potrai eseguire il login quando vuoi e recuperare tutti i dati."
+      }
+    }
+  },
+  "screens": {
+    "setLanguage": {
+      "cardTitle": "Seleziona la lingua",
+      "form": {
+        "language": {
+          "label": "Lingua",
+          "placeholder": "Seleziona"
+        },
+        "submitBtn": "Continua"
+      }
+    },
+    "onboarding": {
+      "continueBtn": "Continua"
+    },
+    "login": {
+      "cardTitle": "Accedi al tuo account",
+      "form": {
+        "email": {
+          "label": "E-mail",
+          "placeholder": "example@example.app"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "La tua password"
+        },
+        "submitBtn": "Accedi"
+      },
+      "resetPasswordBtn": "Password dimenticata?",
+      "haveNoAccount": "Non ti sei ancora registrato? Crea subito il tuo profilo",
+      "createAccountBtn": "Registrati"
+    },
+    "register": {
+      "title": "Registrazione",
+      "form": {
+        "firstName": {
+          "label": "Nome",
+          "placeholder": "Inserisci il tuo nome"
+        },
+        "lastName": {
+          "label": "Cognome",
+          "placeholder": "Inserisci il tuo cognome"
+        },
+        "administrativeArea2": {
+          "label": "Provincia",
+          "placeholder": "Seleziona la provincia"
+        },
+        "phone": {
+          "label": "Cellulare",
+          "placeholder": "Inserisci il tuo cell"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Inserisci la tua e-mail"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Inserisci una password"
+        },
+        "confirmPassword": {
+          "label": "Conferma password",
+          "placeholder": "Conferma la tua password"
+        },
+        "privacy": {
+          "label": "Ho letto e compreso la Privacy Policy"
+        },
+        "privacyLinkText": "Leggi la Privacy Policy",
+        "submitBtn": "Conferma registrazione"
+      }
+    },
+    "newPassword": {
+      "title": "Nova Password",
+      "form": {
+        "submitBtn": "Conferma",
+        "password": {
+          "label": "Nuova Password",
+          "placeholder": ""
+        },
+        "confirmPassword": {
+          "label": "Conferma Nuova Password",
+          "placeholder": ""
+        }
+      }
+    },
+    "securityPin": {
+      "title": "Codice di Reset",
+      "description": {
+        "head": "Inserisci il codice di sicurezza che ti è stato inviato alla mail",
+        "wrongMail": "Mail sbagliata?"
+      },
+      "codeNotReceived": "Non hai ricevuto il codice?",
+      "newRequest": "Potrai richiederlo nuovamente tra",
+      "submitBtn": "Verifica"
+    },
+    "registerSuccess": {
+      "title": "Registrazione completata!",
+      "subtitle": "Il tuo profilo è stato creato correttamente.\n\nA breve riceverai una e-mail con le istruzioni per l'attivazione del profilo.",
+      "button": "Vai al login"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "_subtitle": "Inserisci l’indirizzo di posta elettronica o il numero di telefono associato al tuo account. \nTi invieremo una mail o un SMS contenente le istruzioni per recuperare la tua password.",
+      "subtitle": "Inserisci l’indirizzo di posta elettronica associato al tuo account. Ti invieremo una mail con il codice per recuperare la tua password.",
+      "form": {
+        "email": {
+          "_label": "E-mail/Telefono",
+          "label": "Inserisci indirizzo E-mail",
+          "placeholder": "Inserisci e-mail o telefono"
+        },
+        "submitBtn": "Recupera password"
+      },
+      "askHelp": "Chiedi aiuto ad un operatore",
+      "alerts": {
+        "success": {
+          "title": "Operazione completata",
+          "message": "Ti abbiamo inviato una mail o SMS con le istruzioni per cambiare la password."
+        }
+      }
+    },
+    "home": {
+      "welcome": "Benvenuto,",
+      "documentsCarousel": {
+        "extintCounting": {
+          "label": "Conteggio estintivo",
+          "message": "conteggio estintivo"
+        },
+        "contract": {
+          "label": "Contratto",
+          "message": "copia del contratto"
+        },
+        "secci": {
+          "label": "Secci",
+          "message": "documento SECCI"
+        }
+      }
+    },
+    "lastCommunications": {
+      "title": "Ultime comunicazioni"
+    },
+    "myConsultant": {
+      "title": "Il mio consulente",
+      "form": {
+        "firstName": {
+          "label": "Nome",
+          "placeholder": "Il nome del tuo consulente"
+        },
+        "lastName": {
+          "label": "Cognome",
+          "placeholder": "Il cognome del tuo consulente"
+        },
+        "phone": {
+          "label": "Telefono",
+          "placeholder": "Il telefono del tuo consulente"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "La e-mail del tuo consulente"
+        }
+      },
+      "availabilityHours": "Disponibile dal lunedì al venerdì dalle 9:00 alle 13:00 e dalle 14:00 alle 18:00",
+      "chatOnWhatsapp": "Chatta su WhatsApp",
+      "callConsultant": "Chiama il consulente"
+    },
+    "askQuote": {
+      "title": "Richiedi preventivo",
+      "form": {
+        "amount": {
+          "label": "Importo netto",
+          "placeholder": "Inserisci l'importo richiesto"
+        },
+        "duration": {
+          "label": "Durata in mesi",
+          "placeholder": "Seleziona la durata"
+        },
+        "submitBtn": "Invia richiesta"
+      },
+      "alerts": {
+        "success": {
+          "title": "Richiesta inviata",
+          "message": "La tua richiesta di preventivo è stata inviata con successo. Sarai ricontattato al più presto dal tuo consulente"
+        }
+      }
+    },
+    "cases": {
+      "title": "Pratiche"
+    },
+    "case": {
+      "title": "Dettaglio pratica",
+      "info": "Informazioni",
+      "customerInfo": "Informazioni cliente",
+      "form": {
+        "type": {
+          "label": "Tipo",
+          "placeholder": ""
+        },
+        "instalmentsNumber": {
+          "label": "Durata",
+          "placeholder": ""
+        },
+        "installmentAmount": {
+          "label": "Importo rata",
+          "placeholder": ""
+        },
+        "netAmount": {
+          "label": "Importo netto",
+          "placeholder": ""
+        },
+        "extinguishedAmount": {
+          "label": "Importo estinzione",
+          "placeholder": ""
+        },
+        "status": {
+          "label": "Stato",
+          "placeholder": ""
+        },
+        "loanDescription": {
+          "label": "Descrizione finanziamento",
+          "placeholder": ""
+        },
+        "commissionPercentage": {
+          "label": "Provvigioni",
+          "placeholder": ""
+        },
+        "commissionAmount": {
+          "label": "Importo provvigioni",
+          "placeholder": ""
+        },
+        "tan": {
+          "label": "TAN",
+          "placeholder": ""
+        },
+        "isc": {
+          "label": "TAEG",
+          "placeholder": ""
+        },
+        "createdAt": {
+          "label": "Data inserimento",
+          "placeholder": ""
+        },
+        "resolvedAt": {
+          "label": "Data delibera",
+          "placeholder": ""
+        },
+        "insuranceAt": {
+          "label": "Data polizza",
+          "placeholder": ""
+        },
+        "noticeAt": {
+          "label": "Data notifica",
+          "placeholder": ""
+        },
+        "settledAt": {
+          "label": "Data liquidazione",
+          "placeholder": ""
+        },
+        "from": {
+          "label": "Data decorrenza",
+          "placeholder": ""
+        },
+        "firstName": {
+          "label": "Nome",
+          "placeholder": ""
+        },
+        "lastName": {
+          "label": "Cognome",
+          "placeholder": ""
+        },
+        "address": {
+          "label": "Indirizzo",
+          "placeholder": ""
+        },
+        "city": {
+          "label": "Città",
+          "placeholder": ""
+        },
+        "administrativeArea2": {
+          "label": "Provincia",
+          "placeholder": ""
+        },
+        "phone1": {
+          "label": "Telefono",
+          "placeholder": ""
+        },
+        "phone2": {
+          "label": "Cellulare",
+          "placeholder": ""
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": ""
+        }
+      },
+      "addNote": "Nuova nota"
+    },
+    "clientCase": {
+      "title": "Dettaglio pratica",
+      "info": "Informazioni",
+      "customerInfo": "Informazioni cliente",
+      "form": {
+        "from": {
+          "label": "Data decorrenza",
+          "placeholder": "Data decorrenza pratica"
+        },
+        "installmentAmount": {
+          "label": "Importo rata",
+          "placeholder": "Importo rata"
+        },
+        "instalmentsNumber": {
+          "label": "Durata",
+          "placeholder": "Durata pratica"
+        },
+        "netAmount": {
+          "label": "Importo netto",
+          "placeholder": "Importo netto pratica"
+        },
+        "extinguishedAmount": {
+          "label": "Importo estinzione",
+          "placeholder": "Importo estinzione pratica"
+        },
+        "status": {
+          "label": "Stato",
+          "placeholder": "Stato pratica"
+        }
+      },
+      "askInfo": "Richiedi informazioni su questa pratica",
+      "form2": {
+        "text": {
+          "label": "Descrivi la tua richiesta",
+          "placeholder": "Inserisci testo"
+        },
+        "submitBtn": "Invia richiesta"
+      },
+      "successRequestAlert": {
+        "title": "Riechiesta inviata",
+        "message": "La tua richiesta di informazioni è stata inviata al team di Fin Solution. Riceverai una risposta il prima possibile."
+      }
+    },
+    "addCaseNote": {
+      "title": "Nuova nota",
+      "form": {
+        "note": {
+          "label": "Scrivi la tua nota",
+          "placeholder": "Inserisci il testo"
+        },
+        "submitBtn": "Aggiungi nota"
+      },
+      "successAlert": {
+        "title": "Successo",
+        "message": "La nota è stata salvata con successo"
+      }
+    },
+    "report": {
+      "title": "Report"
+    },
+    "contactPerson": {
+      "title": "Riferimenti",
+      "subtitle": "In questa schermata potrai trovare informazioni sulla tua persona di riferimento.\nPer informazioni e supporto puoi contattarlo durante i giorni lavorativi ad uno dei seguenti recapiti.",
+      "form": {
+        "firstName": {
+          "label": "Nome",
+          "placeholder": "Nome del contatto di riferimento"
+        },
+        "lastName": {
+          "label": "Cognome",
+          "placeholder": "Cognome del contatto di riferimento"
+        },
+        "phone": {
+          "label": "Telefono",
+          "placeholder": "Telefono del contatto di riferimento"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "E-mail del contatto di riferimento"
+        }
+      },
+      "callAgentReferral": "Chiama istruttore"
+    },
+    "commercialReport": {
+      "title": "Report"
+    },
+    "addAppointment": {
+      "title": "Aggiungi appuntamento",
+      "form": {
+        "subject": {
+          "label": "Oggetto",
+          "placeholder": "Seleziona un oggetto"
+        },
+        "date": {
+          "label": "Data dell'evento",
+          "placeholder": "Seleziona una data"
+        },
+        "startHour": {
+          "label": "Ora di inizio",
+          "placeholder": "Inserisci un'ora di inizio"
+        },
+        "endHour": {
+          "label": "Ora di fine",
+          "placeholder": "Inserisci un'ora di fine"
+        },
+        "producerId": {
+          "label": "Codice produttore",
+          "placeholder": "Inserisci il codice numerico"
+        },
+        "where": {
+          "label": "Indirizzo",
+          "placeholder": "Inserisci l'indirizzo"
+        },
+        "notes": {
+          "label": "Note",
+          "placeholder": "Altro da segnare?"
+        },
+        "submitBtn": "Aggiungi"
+      },
+      "alerts": {
+        "success": {
+          "title": "Appuntamento inserito",
+          "message": "Il tuo appuntamento è stato inserito con successo"
+        }
+      }
+    },
+    "commercialBudget": {
+      "title": "Budget",
+      "subtitle": "L’importo totale delle pratiche è calcolato automaticamente dal nostro sistema sommando gli importi netti delle pratiche da te finalizzate nell’arco dell’anno corrente.",
+      "monthlyBudget": "Budget mensile",
+      "yearBudget": "Budget annuale",
+      "form": {
+        "monthlyAmount": {
+          "label": "Importo totale pratiche",
+          "placeholder": "Importo totale pratiche"
+        },
+        "monthlyTarget": {
+          "label": "Importo obiettivo",
+          "placeholder": "Importo obiettivo"
+        },
+        "yearAmount": {
+          "label": "Importo totale pratiche",
+          "placeholder": "Importo totale pratiche"
+        },
+        "yearTarget": {
+          "label": "Importo obiettivo",
+          "placeholder": "Importo obiettivo"
+        }
+      }
+    },
+    "commercialEventDetail": {
+      "title": "Dettagli appuntamento",
+      "info": "Informazioni",
+      "form": {
+        "reason": {
+          "label": "Oggetto",
+          "placeholder": "Oggetto dell'appuntamento"
+        },
+        "from": {
+          "label": "Data",
+          "placeholder": "Data dell'appuntamento"
+        },
+        "startHour": {
+          "label": "Ora di inizio",
+          "placeholder": "Ora di inizio dell'appuntamento"
+        },
+        "endHour": {
+          "label": "Ora di fine",
+          "placeholder": "Ora di fine dell'appuntamento"
+        },
+        "producerId": {
+          "label": "Codice produttore",
+          "placeholder": "Produttore dell'appuntamento"
+        },
+        "phone": {
+          "label": "Telefono produttore",
+          "placeholder": "Telefono produttore"
+        },
+        "where": {
+          "label": "Indirizzo",
+          "placeholder": "Indirizzo dell'appuntamento"
+        },
+        "notes": {
+          "label": "Note",
+          "placeholder": "Note dell'appuntamento"
+        },
+        "outcome": {
+          "label": "Appuntamento fatto",
+          "placeholder": "Seleziona una voce"
+        },
+        "submitBtn": "Aggiorna esito"
+      },
+      "alerts": {
+        "success": {
+          "title": "Evento aggiornato",
+          "message": "Evento aggiornato con successo"
+        }
+      }
+    },
+    "profile": {
+      "title": "Profilo utente",
+      "form": {
+        "firstName": {
+          "label": "Nome",
+          "placeholder": "Il tuo nome"
+        },
+        "lastName": {
+          "label": "Cognome",
+          "placeholder": "Il tuo cognome"
+        },
+        "phone": {
+          "label": "Telefono",
+          "placeholder": "Il tuo telefono"
+        },
+        "mobile": {
+          "label": "Cellulare",
+          "placeholder": "Il tuo cellulare"
+        },
+        "email": {
+          "label": "E-mail",
+          "placeholder": "La tua e-mail"
+        },
+        "administrativeArea": {
+          "label": "Provincia di residenza",
+          "placeholder": "La tua provincia"
+        }
+      },
+      "askChangeText": "Puoi richiedere al Servizio di Assistenza di modificare i tuoi dati. Premi il pulsante qui sotto per essere ricontattato da un operatore",
+      "askChangeBtnText": "Modifica profilo",
+      "askDeleteText": "Se lo desideri, puoi richiedere la cancellazione del tuo profilo attraverso il pulsante qui sotto. NB: una volta richiesta l'eliminazione sarai ricontattato da uno nostro operatore.",
+      "askDeleteBtnText": "Richiedi eliminazione",
+      "alerts": {
+        "deleteRequestSent": {
+          "title": "Richiesta inviata",
+          "message": "La tua richiesta di eliminazione del profilo è stata inviata correttamente. Riceverai un feedback o un contatto da parte del nostro team al più presto."
+        }
+      }
+    },
+    "editProfile": {
+      "title": "Modifica profilo",
+      "form": {
+        "text": {
+          "label": "Scrivi qui quali dati vuoi modificare (es: email)",
+          "placeholder": "Inserisci testo"
+        },
+        "submitBtn": "Richiedi modifica"
+      },
+      "alerts": {
+        "success": {
+          "title": "Richiesta inviata",
+          "message": "La tua richiesta è stata inviata con successo all'amministrazione. Aggiorneremo al più presto i tuoi dati o ti contatteremo per maggiori informazioni."
+        }
+      }
+    },
+    "info": {
+      "title": "Info generali",
+      "copyright": "Copyright {{year}} Fin Solution Italia S.p.A.",
+      "allRightReserved": "Tutti i diritti riservati",
+      "appVersion": "Versione app",
+      "model": "Modello",
+      "deviceId": "ID dispositivo",
+      "system": "Sistema operativo",
+      "OSVersion": "Versione sistema operativo",
+      "brand": "Marca",
+      "zoom": "Zoom",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "shareOnboard": {
+      "title": "Guadagna 100€ per ogni amico che inviti",
+      "cards": {
+        "shareToFriends": {
+          "title": "Presenta i tuoi amici",
+          "description": "Più amici presenti più puoi guadagnare"
+        },
+        "makeSubscribe": {
+          "title": "Fai iscrivere i tuoi amici con il tuo link",
+          "description": "Potranno creare un nuovo account con il tuo link"
+        },
+        "friendMakeFinance": {
+          "title": "Amico che stipula un finanziamento",
+          "description": "La persona da te presentata ha stipulato un finanziamento con noi"
+        },
+        "friendLiquid": {
+          "title": "Liquidazione della pratica di finanziamento del tuo amico",
+          "description": "La persona da te presentata ha stipulato un finanziamento con noi ed è stata liquidata con esito positivo"
+        },
+        "reward": {
+          "title": "Ricevi un BUONO dal valore di 100€ per ogni amico che ottiene un finanziamento",
+          "description": "Dopo che i tuoi amici avranno completato le tappe precedenti potrai scegliere tra un Buono Amazon oppure un Buono benzina Q8."
+        }
+      }
+    },
+    "newRequest": {
+      "title": "Preventivo prestito",
+      "subTitle": "Richiedi un preventivo prestito.",
+      "description": "Personalizza la tua richiesta di prestito e un nostro consulente ti chiamerà a breve.",
+      "sliders": {
+        "amount": {
+          "title": "Importo Richiesto",
+          "base": "€"
+        },
+        "duration": {
+          "title": "Durata del prestito",
+          "base": "mesi"
+        }
+      }
+    },
+    "successRequest": {
+      "title": "La tua richiesta di preventivo è stata inviata",
+      "description": "Un nostro consulente ti chiamerà a breve"
+    },
+    "sharePage": {
+      "title": "Condividi il tuo Codice",
+      "subTitle": "presenta i tuoi amici",
+      "copyCode": "copia il codice",
+      "shareLink": "Condividi link",
+      "termsAndConditions": "Termini e condizioni",
+      "contacts": "Contatti",
+      "shares": "Inviti"
+    }
+  }
+}

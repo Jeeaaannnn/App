@@ -1,0 +1,14 @@
+{
+  "screens": {
+    "setLanguage": {
+      "cardTitle": "Select your language",
+      "form": {
+        "language": {
+          "label": "Language",
+          "placeholder": "Select"
+        },
+        "submitBtn": "Continue"
+      }
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "expo": {
+    "name": "FinSolution",
+    "slug": "FinSolution",
+    "version": "1.13",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "platforms": ["android", "ios"],
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      "expo-secure-store",
+      "expo-localization",
+      [
+        "expo-font",
+        {
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Poppins",
+                "fontDefinitions": [
+                  {
+                    "path": "node_modules/@expo-google-fonts/poppins/200ExtraLight/Poppins_200ExtraLight.ttf",
+                    "weight": "200"
+                  },
+                  {
+                    "path": "node_modules/@expo-google-fonts/poppins/300Light/Poppins_300Light.ttf",
+                    "weight": "300"
+                  },
+                  {
+                    "path": "node_modules/@expo-google-fonts/poppins/400Regular/Poppins_400Regular.ttf",
+                    "weight": "400"
+                  },
+                  {
+                    "path": "node_modules/@expo-google-fonts/poppins/500Medium/Poppins_500Medium.ttf",
+                    "weight": "500"
+                  },
+                  {
+                    "path": "node_modules/@expo-google-fonts/poppins/600SemiBold/Poppins_600SemiBold.ttf",
+                    "weight": "600"
+                  },
+                  {
+                    "path": "node_modules/@expo-google-fonts/poppins/700Bold/Poppins_700Bold.ttf",
+                    "weight": "700"
+                  }
+                ]
+              },
+              "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome.ttf",
+              "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/Ionicons.ttf",
+              "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+              "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Regular.ttf",
+              "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Solid.ttf",
+              "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf",
+              "node_modules/@expo/vector-icons/build/vendor/react-native-vector-icons/Fonts/FontAwesome6_Brands.ttf"
+            ]
+          },
+          "ios": [
+            "node_modules/@expo-google-fonts/poppins/200ExtraLight/Poppins_200ExtraLight.ttf",
+            "node_modules/@expo-google-fonts/poppins/300Light/Poppins_300Light.ttf",
+            "node_modules/@expo-google-fonts/poppins/400Regular/Poppins_400Regular.ttf",
+            "node_modules/@expo-google-fonts/poppins/500Medium/Poppins_500Medium.ttf",
+            "node_modules/@expo-google-fonts/poppins/600SemiBold/Poppins_600SemiBold.ttf",
+            "node_modules/@expo-google-fonts/poppins/700Bold/Poppins_700Bold.ttf"
+          ]
+        }
+      ],
+      [
+        "onesignal-expo-plugin",
+        {
+          "mode": "production",
+          "smallIcons": ["./src/assets/images/logo_small.png"],
+          "smallIconAccentColor": "#FF0000",
+          "devTeam": "286A7SZW9P"
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/images/splash_icon.png",
+          "resizeMode": "cover",
+          "imageWidth": 160,
+          "backgroundColor": "#F37021"
+        }
+      ],
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.fin_solution.app",
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS"
+      ],
+      "blockedPermissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "jsEngine": "jsc",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fin-solution.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "entitlements": {
+        "aps-environment": "production",
+        "com.apple.security.application-groups": [
+          "group.com.fin-solution.app.onesignal"
+        ]
+      }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "41df086c-1fe1-4179-be6b-0ba1dd968f10"
+      }
+    }
+  }
+}
